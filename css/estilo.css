@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  background-color: #cfdbe8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.modal {
+  min-width: 320px;
+  width: 320px;
+  min-height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+
+.modal .img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.modal .titulo {
+  color: #0e1b3b;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 25px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.modal .btn {
+  display: none;
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: #3e83f6;
+  background-color: #eee;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.modal .btn.active {
+  display: block;
+}
+
+.modal .texto {
+  font-size: 15px;
+  font-weight: 100;
+  color: #acadb9;
+  margin-bottom: 30px;
+}
+
+.modal .en {
+  display: none;
+}
+
+.modal .en.active {
+  display: block;
+}
+
+.modal .br {
+  display: none;
+}
+
+.modal .br.active {
+  display: block;
+}
+
+.footer {
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 10px;
+  text-align: center;
+}
+
+.footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.footer .attribution a {
+  color: #3e52a3;
+}
